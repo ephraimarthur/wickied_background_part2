@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+
+}
+
+
+.page_header {
+  height:auto;
+  padding: 1%;
+}
+
+
+.list_navigation_link {
+
+}
+
+.list_navigation_link ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.list_navigation_link ul li {
+  display: inline-block;
+  margin: 1%;
+}
+
+
+.list_navigation_link ul li  a {
+  color:#ffffff;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.brand_name {
+  float: left;
+  font-family: 'Tilt Prism', cursive;
+  color:#fff;
+  font-weight:bold;
+
+}
+
+
+.header_content {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+.header_content p {
+  color:#fff;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 19px;
+/* font-family: 'Tilt Prism', cursive; */
+
+}
+
+
+
+.btn_white {
+  background-color: #ffffff;
+  color:#000000;
+  font-size:20px;
+}
+
+
+.header_content a:hover{
+  background-color: gray;
+  color:#000000;
+  font-size:20px;
+  transition: 2s;
+}
+
+
+
+.heading {
+ max-width: 400px;
+ margin: auto;
+
+}
+
+.heading h1 {
+  text-align: center;
+  color:#fff;
+  font-size: 23px;
+
+}
+
+
+
+.services_card {
+  padding:1%;
+}
+
+.services_card img {
+  width: 100%;
+  height:250px;
+}
+
+.services_card h1{
+  color:#000;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
+
+.section_carosel {
+  height: 400px;
+  background: red;
+}
+
+
+.classified_ads {
+  height: 500px;
+  width:100%;
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
